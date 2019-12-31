@@ -14,7 +14,7 @@ sap.ui.jsview("myfirstapp_01.demo01", {
 	*/ 
 	createContent : function(oController) {
  		return new sap.m.Page({
-			title: "Hello Word !! Favian Ramos",
+			title: "Hello Word !! FaVian Ramos",
 			content: [
 			
 			]
