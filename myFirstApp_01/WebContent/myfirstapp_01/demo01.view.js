@@ -13,12 +13,31 @@ sap.ui.jsview("myfirstapp_01.demo01", {
 	* @memberOf myfirstapp_01.demo01
 	*/ 
 	createContent : function(oController) {
- 		return new sap.m.Page({
-			title: "Hello Word !! Favian Ramos",
-			content: [
+ 		
+		var oSimpleInput=new sap.m.Input({
 			
+			placeholder="Enter Name"
+			
+		});
+		
+		
+		var oBtn=new sap.m.Button({
+			text="Submit"
+			
+		});
+		var oPage= new sap.m.Page({
+			title: "Simple App",
+			content: [
+				oSimpleInput,
+				oBtn
 			]
 		});
+		
+		
+		
+		return oPage;
 	}
 
 });
+
+
