@@ -16,15 +16,16 @@ sap.ui.jsview("myfirstapp_01.demo01", {
  		
 		var oSimpleInput=new sap.m.Input({
 			
-			placeholder="Enter Name"
+			placeholder:"Enter Name"
 			
 		});
 		
 		
 		var oBtn=new sap.m.Button({
-			text="Submit"
+			text:"Submit"
 			
 		});
+		
 		var oPage= new sap.m.Page({
 			title: "Simple App",
 			content: [
