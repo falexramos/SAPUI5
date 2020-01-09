@@ -22,8 +22,8 @@ sap.ui.jsview("myfirstapp_01.demo01", {
 		
 		
 		var oBtn=new sap.m.Button({
-			text:"Submit"
 			
+			text:"Submit"
 		});
 		
 		var oPage= new sap.m.Page({
